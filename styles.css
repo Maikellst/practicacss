@@ -1,27 +1,50 @@
-/* 1. Selector de Elemento: Selecciona todos los párrafos (p) de la página */
-p {
+body {
+    background-color: #f2f2f2;
     font-family: Arial, sans-serif;
-    font-size: 16px;
 }
-
-/* 2. Selector de Clase: Selecciona todos los elementos que tienen la clase .noticia */
+p {
+    font-size: 16px;
+    color: rgb(30, 30, 30);
+}
 .noticia {
-    background-color: lightgray;
+    background-color: white;
     padding: 15px;
 }
-
-/* 3. Selector de ID: Selecciona únicamente el contenedor con el identificador #noticias */
 #noticias {
+    background-color: lightgray;
     padding: 10px;
 }
-
-/* 4. Selector Descendiente: Selecciona los títulos h3 que están dentro de elementos con la clase .noticia */
 .noticia h3 {
-    color: darkblue;
+    color: #1e3a8a;
     font-size: 24px;
 }
-
-/* 5. Selector de Agrupación: Aplica el mismo estilo a los títulos h1 y h2 al mismo tiempo */
 h1, h2 {
     font-family: Verdana, sans-serif;
+    color: #1e3a8a;
+}
+#cabecera {
+    background-color: #1e3a8a;
+    padding: 15px;
+}
+#cabecera h1, #cabecera p {
+    color: rgb(255, 255, 255);
+}
+#menu {
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+}
+a {
+    color: red;
+}
+.categoria {
+    background-color: #1e3a8a;
+    color: white; 
+    padding: 3px 6px;
+}
+#pie {
+    background-color: rgb(40, 40, 40);
+    padding: 10px;
+}
+#pie p {
+    color: white;
 }
